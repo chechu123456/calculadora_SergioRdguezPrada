@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <hr>
+    <p>Introduce los siguientes valores</p>
+    <form action="proceso.php" method="post">
+        <p>Número 1: <input type="text" name="num1"></p>
+        <p>Numero 2: <input type="text" name="num2"></p>
+        <input type="radio" name="operacion" value="sumar"> Sumar
+        <input type="radio" name="operacion" value="restar">Restar
+        <input type="radio" name="operacion" value="multiplicar">Multiplicar
+        <input type="radio" name="operacion" value="dividir">Dividir
+        <p><input type="submit" value="Calcular"></p>
+    </form>
+</body>
+</html>
