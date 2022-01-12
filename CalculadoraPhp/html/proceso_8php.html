@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Calculadora: C:/CalculadoraPhp/proceso.php File Reference</title>
+<title>Calculadora: proceso.php File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Calculadora<span id="projectnumber">&#160;1</span>
+   <div id="projectname">Calculadora<span id="projectnumber">&#160;2</span>
    </div>
   </td>
  </tr>
@@ -60,10 +60,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_e6bb53534ac0e427887cf7a94c0c004e.html">C:</a></li><li class="navelem"><a class="el" href="dir_960e162e292c473bc5eab7cdededb4a2.html">CalculadoraPhp</a></li>  </ul>
-</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
@@ -76,7 +72,7 @@ $(function() {
 Variables</h2></td></tr>
 <tr class="memitem:a8c3e50a643dc89d77f0a6ed9ae6c1596"><td class="memItemLeft" align="right" valign="top">if(!isset($_POST['num1'])||!isset($_POST['num2'])||!isset($_POST['operacion']))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proceso_8php.html#a8c3e50a643dc89d77f0a6ed9ae6c1596">else</a></td></tr>
 <tr class="separator:a8c3e50a643dc89d77f0a6ed9ae6c1596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d5187f58e5a2f321037d31629ba119"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proceso_8php.html#a02d5187f58e5a2f321037d31629ba119">$num2</a> = (int)$_POST['num2']</td></tr>
+<tr class="memitem:a02d5187f58e5a2f321037d31629ba119"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proceso_8php.html#a02d5187f58e5a2f321037d31629ba119">$num2</a> = $_POST['num2']</td></tr>
 <tr class="separator:a02d5187f58e5a2f321037d31629ba119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414f2abb5c4590f83940130b9919cfba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="proceso_8php.html#a414f2abb5c4590f83940130b9919cfba">$operacion</a> = $_POST['operacion']</td></tr>
 <tr class="separator:a414f2abb5c4590f83940130b9919cfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -89,7 +85,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$num2 = (int)$_POST['num2']</td>
+          <td class="memname">$num2 = $_POST['num2']</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -122,8 +118,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">            $num1 = (int)$_POST[<span class="stringliteral">&#39;num1&#39;</span>]</div>
-</div><!-- fragment -->
+<div class="line">            $num1 = $_POST[<span class="stringliteral">&#39;num1&#39;</span>]</div>
+</div><!-- fragment --><dl class="section author"><dt>Author</dt><dd>Sergio Rodríguez Prada </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
