@@ -11,6 +11,11 @@ import java.util.Scanner;
  * @author DAW
  */
 public class CalculadoraJavaSergio {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
@@ -58,6 +63,9 @@ public class CalculadoraJavaSergio {
         }while(opc != 0);
     }
     
+    /**
+     *
+     */
     public static void menu(){
         System.out.println("--------------------");
         System.out.println("Menu:");
@@ -70,21 +78,45 @@ public class CalculadoraJavaSergio {
         System.out.println("Introduce un valor del menu. Pulsa 0 para salir");
     }
     
+    /**
+     *
+     * @param num1
+     * @param num2
+     * @return
+     */
     public static int sumar(int num1, int num2){
         int suma = num1 + num2;
         return suma;
     }
     
+    /**
+     *
+     * @param num1
+     * @param num2
+     * @return
+     */
     public static int restar(int num1, int num2){
         int resta = num1 - num2;
         return resta;
     }
     
+    /**
+     *
+     * @param num1
+     * @param num2
+     * @return
+     */
     public static int multiplicar( int num1, int num2){
         int multi = num1 * num2;
         return multi;
     }
     
+    /**
+     *
+     * @param num1
+     * @param num2
+     * @return
+     */
     public static int dividir(int num1, int num2){
         int division = 0;
         if(num2 != 0){
